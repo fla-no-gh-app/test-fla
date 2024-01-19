@@ -19,7 +19,7 @@ func main() {
 func HelloServer(w http.ResponseWriter, r *http.Request) {
 	path := r.URL.Path[1:]
 	if path != "" {
-		fmt.Fprintf(w, "Helaaasssassslssso, %s!", r.URL.Path[1:])
+		fmt.Fprintf(w, "Helaaasssassslsssssso, %s!", r.URL.Path[1:])
 	} else {
 		fmt.Fprint(w, "Hello World!")
 	}
